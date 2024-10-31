@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vinay/RiderProjects/FinalProject/FinalProject/FinalProject.csproj": {}
+    "/Users/aminovmakhsudjon/Desktop/FinalProject/FinalProject_WebAppDev/FinalProject/FinalProject.csproj": {}
   },
   "projects": {
-    "/Users/vinay/RiderProjects/FinalProject/FinalProject/FinalProject.csproj": {
+    "/Users/aminovmakhsudjon/Desktop/FinalProject/FinalProject_WebAppDev/FinalProject/FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vinay/RiderProjects/FinalProject/FinalProject/FinalProject.csproj",
+        "projectUniqueName": "/Users/aminovmakhsudjon/Desktop/FinalProject/FinalProject_WebAppDev/FinalProject/FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "/Users/vinay/RiderProjects/FinalProject/FinalProject/FinalProject.csproj",
-        "packagesPath": "/Users/vinay/.nuget/packages/",
-        "outputPath": "/Users/vinay/RiderProjects/FinalProject/FinalProject/obj/",
+        "projectPath": "/Users/aminovmakhsudjon/Desktop/FinalProject/FinalProject_WebAppDev/FinalProject/FinalProject.csproj",
+        "packagesPath": "/Users/aminovmakhsudjon/.nuget/packages/",
+        "outputPath": "/Users/aminovmakhsudjon/Desktop/FinalProject/FinalProject_WebAppDev/FinalProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/vinay/.nuget/NuGet/NuGet.Config"
+          "/Users/aminovmakhsudjon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
