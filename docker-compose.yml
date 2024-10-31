@@ -1,0 +1,22 @@
+﻿services:    
+  db:
+    image: mysql
+    restart: always
+    container_name: webAppFinal
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: final
+      MYSQL_USER: root
+      MYSQL_PASSWORD: pass
+    ports:
+      - "3306:3306"
+        
+  finalproject:
+    image: finalproject
+    build:
+      context: .
+      dockerfile: FinalProject/Dockerfile
+    depends_on:
+      - db
+    ports:
+      - "8080:8080"
