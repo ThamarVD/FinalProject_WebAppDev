@@ -17,5 +17,5 @@ public class AddPerson
     [Display(Name = "Degree")]
     public int DegreeId { get; set; }
     
-    public List<int>? Hobbies { get; set; } = new List<int>();
+    public List<int>? Hobbies { get; set; }
 }
