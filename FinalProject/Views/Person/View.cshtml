@@ -1,8 +1,18 @@
 @model Person
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = @Model.Name + " - Profile";
     Layout = "_Layout";
 }
 
-<h2>@Model.Name</h2>
+<h2 class="mb-0">@Model.Name</h2>
+<a href="/degree/view/@Model.Degree.Id" class="text-decoration-none mb-2">@Model.Degree.Name</a>
+<p>@Model.About</p>
+
+<h3>Hobbies</h3>
+
+    @foreach (Hobby hobby in Model.Hobbies)
+    {
+        <h5 class="mb-0 pb-0"><a href="/hobby/view/@hobby.Id" class="text-decoration-none">@hobby.Name</a></h5>
+        <p class="mt-0 pt-0">@hobby.Description</p>
+    }
