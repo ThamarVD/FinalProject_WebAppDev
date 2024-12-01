@@ -1,8 +1,21 @@
-﻿@{
+﻿@model List<Person>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Welcome to Group 2's Final Project</h1>
+<h2>Learn more about us!</h2>
+
+<div class="flex-column">
+    @foreach (Person person in Model)
+    {
+        <a href="/person/@person.Id" class="text-decoration-none text-black">
+            <div class="shadow-lg bg-white rounded p-2 border border-dark border-2 mb-3">
+                <h4 class="text-xl font-bold mb-0">@person.Name</h4>
+                <p class="mb-1 text-secondary">@person.Degree.Name</p>
+                <p class="mb-0">@person.About</p>
+            </div>
+        </a>
+    }
 </div>
