@@ -5,7 +5,11 @@
 }
 
 <h1>Welcome to Group 2's Final Project</h1>
-<h2>Learn more about us!</h2>
+
+<div class="d-flex justify-content-between align-items-center">
+    <h2>Learn more about us!</h2>
+    <a href="/person/add" class="btn-outline-primary btn-sm text-decoration-none">+</a>
+</div>
 
 <div class="flex-column">
     @foreach (Person person in Model)

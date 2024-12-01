@@ -1,12 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-using System.Runtime.InteropServices;
 
 namespace FinalProject.Models;
 
-public class Person
+public class AddPerson
 {
-    public int Id { get; set; }
-    
     [Required(ErrorMessage = "Name is required")]
     [StringLength(100, ErrorMessage = "Name cannot be longer than 100 characters")]
     public string Name { get; set; }
@@ -16,7 +13,9 @@ public class Person
     public string About { get; set; }
     
     [Required(ErrorMessage = "Please select a degree")]
-    public Degree Degree { get; set; }
+    [Range(1, int.MaxValue, ErrorMessage = "Please select a valid degree")]
+    [Display(Name = "Degree")]
+    public int DegreeId { get; set; }
     
-    public List<Hobby>? Hobbies { get; set; } = new List<Hobby>();
+    public List<int>? Hobbies { get; set; }
 }

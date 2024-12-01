@@ -15,9 +15,10 @@
 </div>
 
 
-
-    @foreach (Hobby hobby in Model.Hobbies)
-    {
-        <h5 class="mb-0 pb-0"><a href="/hobby/view/@hobby.Id" class="text-decoration-none">@hobby.Name</a></h5>
-        <p class="mt-0 pt-0">@hobby.Description</p>
-    }
+@foreach (Hobby hobby in Model.Hobbies)
+{
+    <h5 class="mb-0 pb-0">
+        <a href="/hobby/view/@hobby.Id" class="text-decoration-none">@hobby.Name</a>
+    </h5>
+    <p class="mt-0 pt-0">@hobby.Description</p>
+}
