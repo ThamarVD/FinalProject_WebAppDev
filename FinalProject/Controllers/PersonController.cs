@@ -27,28 +27,34 @@ public class PersonController(ApplicationDbContext context) : Controller
         var hobbies = _context.Hobbies.ToList();
         ViewBag.Hobbies = hobbies;
         
-        return View(new Person()
+        return View(new AddPerson()
         {
-            Hobbies = new List<Hobby>()
+            Hobbies = new List<int>()
         });
     }
     
     [HttpPost]
-    public IActionResult Add(Person person)
+    public IActionResult Add(AddPerson person)
     {
         var degrees = _context.Degrees.ToList();
         ViewBag.Degrees = degrees;
+
         
-        if (ModelState.IsValid)
+        if (ModelState.IsValid && _context.Degrees.Any(d => d.Id == person.DegreeId))
         {
-            if (person.Hobbies.Any())
+            var finalPerson = new Person()
             {
-                person.Hobbies = _context.Hobbies
-                    .Where(h => person.Hobbies.Select(ph => ph.Id).Contains(h.Id))
-                    .ToList();
-            }
+                Id = 0,
+                Name = person.Name,
+                About = person.About,
+                Degree = _context.Degrees.FirstOrDefault(d => d.Id == person.DegreeId) ?? new Degree(),
+                Hobbies = _context
+                    .Hobbies
+                    .Where(h => person.Hobbies!.Contains(h.Id))
+                    .ToList()
+            };
             
-            var addedPerson = _context.People.Add(person);
+            _context.People.Add(finalPerson);
             _context.SaveChanges();
             
             return Redirect($"/");
