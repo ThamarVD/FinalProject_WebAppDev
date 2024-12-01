@@ -1,0 +1,23 @@
+@model Person
+
+@{
+    ViewBag.Title = @Model.Name + " - Profile";
+    Layout = "_Layout";
+}
+
+<h2 class="mb-0">@Model.Name</h2>
+<a href="/degree/view/@Model.Degree.Id" class="text-decoration-none mb-2">@Model.Degree.Name</a>
+<p>@Model.About</p>
+
+<div class="d-flex justify-content-between align-items-center">
+    <h3>Hobbies</h3>
+    <a href="/person/add-hobby/@Model.Id" class="btn-outline-primary btn-sm text-decoration-none">+</a>
+</div>
+
+
+
+    @foreach (Hobby hobby in Model.Hobbies)
+    {
+        <h5 class="mb-0 pb-0"><a href="/hobby/view/@hobby.Id" class="text-decoration-none">@hobby.Name</a></h5>
+        <p class="mt-0 pt-0">@hobby.Description</p>
+    }
