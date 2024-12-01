@@ -36,10 +36,6 @@ public class PersonController(ApplicationDbContext context) : Controller
     [HttpPost]
     public IActionResult Add(AddPerson person)
     {
-        var degrees = _context.Degrees.ToList();
-        ViewBag.Degrees = degrees;
-
-        
         if (ModelState.IsValid && _context.Degrees.Any(d => d.Id == person.DegreeId))
         {
             var finalPerson = new Person()

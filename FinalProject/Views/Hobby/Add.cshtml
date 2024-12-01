@@ -1,0 +1,42 @@
+@model AddHobby
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+@section scripts {
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<h2>Add Person</h2>
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" type="text" class="form-control"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="People"></label>
+        <select asp-for="People"
+                asp-items="@(new MultiSelectList(ViewBag.People, "Id", "Name"))"
+                multiple="multiple"
+                class="form-control">
+        </select>
+        <span asp-validation-for="People" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-dark mt-2 mr-2">Add</button>
+    <a href="/" class="btn btn-dark mt-2">Cancel</a>
+</form>
