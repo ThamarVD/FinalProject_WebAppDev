@@ -14,6 +14,7 @@ public class AddPerson
     
     [Required(ErrorMessage = "Please select a degree")]
     [Range(1, int.MaxValue, ErrorMessage = "Please select a valid degree")]
+    [Display(Name = "Degree")]
     public int DegreeId { get; set; }
     
     public List<int>? Hobbies { get; set; } = new List<int>();
