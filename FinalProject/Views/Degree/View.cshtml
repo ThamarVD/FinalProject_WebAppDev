@@ -1,0 +1,20 @@
+﻿@model Degree
+
+@{
+    ViewBag.Title = "Degree Details";
+    Layout = "_Layout";
+}
+
+<h2 class="mb-2">@Model.Name</h2>
+<p>@Model.Description</p>
+
+<h3>People with this degree</h3>
+<div class="p-2">
+    @foreach (var person in Model.People)
+    {
+        <h5 class="mb-0 pb-0">
+            <a href="/person/view/@person.Id" class="text-decoration-none">@person.Name</a>
+        </h5>
+        <p class="mt-0 pt-0">@person.About</p>
+    }
+</div>

@@ -1,0 +1,23 @@
+﻿@model List<Degree>
+
+@{
+    ViewBag.Title = "Degrees";
+    Layout = "_Layout";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h2>Degrees</h2>
+    <a href="/degree/add" class="btn-outline-primary btn-sm text-decoration-none">+</a>
+</div>
+
+<div class="flex-column">
+    @foreach (var degree in Model)
+    {
+        <a href="/degree/view/@degree.Id" class="text-decoration-none">
+            <div class="shadow-lg bg-white rounded p-2 border border-dark border-2 mb-3">
+                <h4 class="text-xl font-bold mb-0">@degree.Name</h4>
+                <p class="mb-0 text-black">@degree.Description</p>
+            </div>
+        </a>
+    }
+</div>

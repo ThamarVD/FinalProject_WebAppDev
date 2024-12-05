@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rkn58\\source\\repos\\FinalProject_WebAppDev\\",
+  "WorkspaceRootPath": "C:\\Users\\rkn58\\source\\repos\\finalproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject_webappdev\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject\\finalproject\\views\\degree\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\degree\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject\\finalproject\\views\\hobby\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\hobby\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\FinalProject_WebAppDev\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\FinalProject_WebAppDev\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:55:48.905Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Degree\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Degree\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Degree\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Degree\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T16:05:15.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Hobby\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Hobby\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Hobby\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Hobby\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T16:05:04.972Z",
               "EditorCaption": ""
             }
           ]

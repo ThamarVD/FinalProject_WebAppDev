@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rkn58\\source\\repos\\FinalProject_WebAppDev\\",
+  "WorkspaceRootPath": "C:\\Users\\rkn58\\source\\repos\\finalproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject_webappdev\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject\\finalproject\\views\\degree\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\degree\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject\\finalproject\\views\\degree\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\degree\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|c:\\users\\rkn58\\source\\repos\\finalproject\\finalproject\\views\\hobby\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FE8954C-12F5-4055-94EC-1034DC76710F}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\hobby\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\FinalProject_WebAppDev\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\FinalProject_WebAppDev\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:55:48.905Z",
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Degree\\View.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Degree\\View.cshtml",
+              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Degree\\View.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Degree\\View.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T16:04:50.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Degree\\Add.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Degree\\Add.cshtml",
+              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Degree\\Add.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Degree\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T16:03:11.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Hobby\\Add.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Hobby\\Add.cshtml",
+              "ToolTip": "C:\\Users\\rkn58\\source\\repos\\finalproject\\FinalProject\\Views\\Hobby\\Add.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Hobby\\Add.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T16:02:24.223Z",
               "EditorCaption": ""
             }
           ]
